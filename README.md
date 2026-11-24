@@ -1,4 +1,4 @@
-# ReachInbox Email Job Scheduler
+# ReachInbox Email Job Scheduler  
 
 Full-stack email scheduler: Express + BullMQ (Redis) + Postgres + Elasticsearch backend, React + Vite + Tailwind dashboard.
 
