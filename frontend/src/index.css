@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+/* Tailwind v4 defaults borders to currentColor; restore the soft gray. */
+@layer base {
+  *, ::after, ::before {
+    border-color: var(--color-gray-200);
+  }
+}
