@@ -203,9 +203,9 @@ authRouter.get("/google/callback", async (req, res) => {
       maxAge: 7 * 24 * 3600_000,
     });
 
-    // res.redirect(`${config.frontendUrl}/dashboard`);
+    res.redirect(`${config.frontendUrl}/dashboard`);
     // Changed by chatgpt
-    res.redirect(`${config.frontendUrl}/dashboard/scheduled`);
+    // res.redirect(`${config.frontendUrl}/dashboard/scheduled`);
   } catch (e) {
     console.error("[auth]", e);
     res.redirect(`${config.frontendUrl}/?error=login_failed`);
